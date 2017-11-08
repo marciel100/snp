@@ -1,0 +1,3 @@
+br\com\caelum\vraptor\model\Perfil.class
+br\com\caelum\vraptor\controller\IndexController.class
+br\com\caelum\vraptor\controller\NoticiaController.class
