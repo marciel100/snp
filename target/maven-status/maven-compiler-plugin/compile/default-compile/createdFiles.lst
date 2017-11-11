@@ -1,3 +1,14 @@
+br\com\caelum\vraptor\dao\UsuarioDao.class
+br\com\caelum\vraptor\seguranca\AutorizacaoInterceptor.class
+br\com\caelum\vraptor\model\Midia.class
+br\com\caelum\vraptor\seguranca\UsuarioLogado.class
 br\com\caelum\vraptor\controller\IndexController.class
+br\com\caelum\vraptor\model\Autor.class
+br\com\caelum\vraptor\infra\EntityManagerProducer.class
 br\com\caelum\vraptor\controller\NoticiaController.class
+br\com\caelum\vraptor\seguranca\Open.class
+br\com\caelum\vraptor\model\Noticia.class
+br\com\caelum\vraptor\controller\UsuarioController.class
+br\com\caelum\vraptor\controller\LoginController.class
 br\com\caelum\vraptor\model\Perfil.class
+br\com\caelum\vraptor\model\Usuario.class

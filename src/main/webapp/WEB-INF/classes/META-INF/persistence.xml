@@ -8,16 +8,14 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 
 		<properties>
-			<!-- <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" 
-				/> <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/noticia" 
-				/> <property name="javax.persistence.jdbc.user" value="root" /> <property 
-				name="javax.persistence.jdbc.password" value="1234" /> -->
-
-			<property name="javax.persistence.jdbc.driver" value="com.firebird.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:firebird://localhost/noticia" />
-			<property name="javax.persistence.jdbc.user" value="sysdba" />
-			<property name="javax.persistence.jdbc.password" value="masterkey" />
-
+				<!-- <property name="javax.persistence.jdbc.driver" value="com.firebird.jdbc.Driver" />
+					<property name="javax.persistence.jdbc.url" value="jdbc:firebird://localhost/noticia" />
+					<property name="javax.persistence.jdbc.user" value="sysdba" />
+					<property name="javax.persistence.jdbc.password" value="masterkey" /> -->
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/noticia"/>
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="1234" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 			<property name="hibernate.show_sql" value="true" />

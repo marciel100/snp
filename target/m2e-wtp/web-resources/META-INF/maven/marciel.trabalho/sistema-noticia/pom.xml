@@ -7,7 +7,7 @@
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
-	<description>Projeto de sistema de noticias para orgãos públicos</description>
+	<description>Projeto de sistema de noticias</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,13 +26,19 @@
 			<artifactId>weld-servlet-core</artifactId>
 			<version>2.1.2.Final</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.jboss.weld</groupId>
 			<artifactId>weld-core-impl</artifactId>
 			<version>2.1.2.Final</version>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>javax.el</groupId>
 			<artifactId>el-api</artifactId>
@@ -65,13 +71,12 @@
 			<version>4.3.6.Final</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.firebirdsql.jdbc/jaybird -->
 		<dependency>
-			<groupId>org.firebirdsql.jdbc</groupId>
-			<artifactId>jaybird-jdk17</artifactId>
-			<version>3.0.2</version>
-			<type>pom</type>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.33</version>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
